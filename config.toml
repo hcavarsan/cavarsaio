@@ -22,7 +22,7 @@ paginate     = 10
   # Metadata mostly used in document's head
   description = "devops e outras drogas pesadas"
   keywords = "homepage, blog, devops, noops"
-  images = ["/img/logo.png"]
+  images = ["https://cavarsaio.s3-sa-east-1.amazonaws.com/logo.png"]
 
 [taxonomies]
     category = "blog"
