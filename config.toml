@@ -22,7 +22,7 @@ paginate     = 10
   # Metadata mostly used in document's head
   description = "devops e outras drogas pesadas"
   keywords = "homepage, blog, devops, noops"
-  images = [""]
+  images = "/img/logo.png"
 
 [taxonomies]
     category = "blog"
@@ -39,7 +39,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "cavarsa.io"
-      logoHomeLink = "/"
+      logoHomeLink = "/img/logo.png"
     # or
     #
     # path = "/img/your-example-logo.svg"
