@@ -11,7 +11,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "o ultímo a sair apaga a luz"
+  homeSubtitle = "devops e outras drogas pesadas"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -20,9 +20,14 @@ paginate     = 10
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
+  description = "devops e outras drogas pesadas"
+  keywords = "homepage, blog, devops, noops"
   images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
 
 [languages]
   [languages.en]
