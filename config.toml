@@ -1,4 +1,4 @@
-baseurl      = ""
+baseurl      = "cavarsa.io"
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello2"
