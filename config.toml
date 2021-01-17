@@ -39,9 +39,7 @@ paginate     = 10
 
     [languages.en.params.logo]
       logoText = "cavarsa.io"
-      logoHomeLink = "/img/logo.png"
-      path = "/img/logo.png"
-      alt = "cavarsa.io"
+      logoHomeLink = "/"
 
   # And you can even create generic menu
   [[menu.main]]
