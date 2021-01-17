@@ -1,7 +1,7 @@
 baseurl      = ""
 title        = "My Blog"
 languageCode = "en-us"
-theme        = "hello"
+theme        = "hello2"
 paginate     = 10
 
 [params]
