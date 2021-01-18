@@ -74,7 +74,7 @@ Aqui a idéia é ter todo o código da plataforma, e como disse, muita coisa vou
 ```
 ├── README.md
 └── platform
-    ├── main_terragrunt.hcl
+    ├── terragrunt.hcl
     └── sa-east-1
         ├── addons
         │   └── terragrunt.hcl
