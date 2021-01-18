@@ -152,6 +152,22 @@ só não esquecer de dar o `terragrunt destroy-all` depois, pq senão a conta da
 
 Ah!! e para acessar o cluster e ver que ta tudo rodando, é só dar um `aws eks --region sa-east-1 update-kubeconfig --name cluster-default` e acessar via kubectl pra se certificar que os addons estão todos lá....
 
+```
+➜  aws eks --region sa-east-1 update-kubeconfig --name cluster-default
+Added new context arn:aws:eks:sa-east-1:034506438324:cluster/cluster-default to /Users/cavarsa/.kube/config
+
+➜  kubens              
+aws-node-termination-handler
+cluster-autoscaler
+default
+external-dns
+ingress-nginx
+kube-node-lease
+kube-public
+kube-system
+metrics-server
+````
+
 tbm é legal dar uma olhada no s3 e dynamo pra ver toda a estrutura de state e lock que o terragrunt ja entrega pra gente :top:
 
 ## Concluindo a primeira parte!
