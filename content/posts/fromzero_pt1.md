@@ -125,7 +125,7 @@ tbm tem alguns addons que vamos precisar adicionar nesse módulo pois ainda não
 - argoCD
 
 a idéia é deixar essa configuração pra próxima parte dessa jornada, mas é bom ja termos isso mapeado!
-## Deploy da plataforma
+## Deploy da Stack
 
 Repo: https://github.com/hcavarsan/base-platform
 
