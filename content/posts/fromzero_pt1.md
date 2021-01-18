@@ -125,7 +125,7 @@ tbm tem alguns addons que vamos precisar adicionar nesse módulo pois ainda não
 - argoCD
 
 a idéia é deixar essa configuração pra próxima parte dessa jornada, mas é bom ja termos isso mapeado!
-## Deploy da Stack
+## Deploy da plataforma
 
 Repo: https://github.com/hcavarsan/base-platform
 
@@ -142,11 +142,13 @@ Bom, ja deixei pronto toda a estrutura do Terragrunt, que basicamente se resume 
 com isso explicado, vamos subir nosso cluster! exportando as variaveis de credenciais da AWS e subindo esse terragrunt, devemos ter nosso ambiente pronto!, o terragrunt se encarrega de criar o bucket, dynamos e subir todos recursos na ordem que precisar, então é só rodar os comandos abaixo que nosso cluster deve subir (pode ir tomar um café enquanto roda pq demora bem):
 
 ```
-export AWS_ACCESS_KEY_ID="XXXXXXXXXXX"
-export AWS_SECRET_ACCESS_KEY="XXXXXXXXXX"
+export AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXXX"
+export AWS_SECRET_ACCESS_KEY="XXXXXXXXXXX"
 terragrunt plan-all
 terragrunt apply-all
 ````
+
+só não esquecer de dar o `terragrunt destroy-all` depois, pq senão a conta da AWS vem bem alta no fim do mês (acredite, experiência própria :fuck:)
 
 Ah!! e para acessar o cluster e ver que ta tudo rodando, é só dar um `aws eks --region sa-east-1 update-kubeconfig --name cluster-default` e acessar via kubectl pra se certificar que os addons estão todos lá....
 
